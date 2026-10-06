@@ -1,0 +1,13 @@
+server:
+  http:
+    addr: 0.0.0.0:8080
+    readTimeoutMs: 3000
+  grpc:
+    addr: 0.0.0.0:9090
+database:
+  dsn: root:root@tcp(127.0.0.1:3306)/demo
+  maxOpenConns: 100
+  maxIdleConns: 10
+features:
+  enableMetrics: true
+appName: nconf-demo
