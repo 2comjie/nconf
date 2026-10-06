@@ -3,7 +3,7 @@ module github.com/2comjie/nconf
 go 1.27.0
 
 require (
-	github.com/2comjie/ntool v0.1.0
+	github.com/2comjie/ntool v0.1.1
 	github.com/clbanning/mxj v1.8.4
 	github.com/fsnotify/fsnotify v1.10.1
 	github.com/spf13/cast v1.10.0
